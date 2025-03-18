@@ -1,1 +1,1 @@
-https://github.com/IvanDanilenkov/ono-tebe-nado-fd.git
+https://github.com/IvanDanilenkov/posmotri-v-okno-fd.git
