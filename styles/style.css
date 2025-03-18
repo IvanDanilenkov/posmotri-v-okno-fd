@@ -63,10 +63,12 @@ ol {
 
 .content {
   display: flex;
-  /*display: grid;
-  grid-template-columns: 711px 399px;*/
   align-items: end;
   gap: 30px;
+  /*
+  display: grid;
+  grid-template-columns: 711px 399px;
+  */
 }
 
 .result {
@@ -157,9 +159,6 @@ ol {
   gap: 16px;
 }
 
-.search-form__checkbox {
-}
-
 .search-form__pseudo-checkbox {
   display: inline-block;
   width: 19px;
@@ -236,12 +235,6 @@ input[type="checkbox"]:checked + span {
   gap: 24px;
 }
 
-.preloader-template {
-}
-
-.cards-list-item-template {
-}
-
 .content__list-item {
   width: 100%;
   padding: 0 3px;
@@ -303,19 +296,7 @@ input[type="checkbox"]:checked + span {
   object-position: center;
 }
 
-.more-button-template {
-}
-
 .more-button {
   width: 100%;
   margin-top: 24px;
-}
-
-.error-template {
-}
-
-.error {
-}
-
-.error__title {
 }
