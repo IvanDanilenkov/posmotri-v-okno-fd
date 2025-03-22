@@ -19,8 +19,10 @@ html {
 }
 
 .page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
-  padding: 133px 30px;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
@@ -138,6 +140,8 @@ ol {
   font-family: inherit;
   font-size: 18px;
   background-color: transparent;
+  word-spacing: -5px;
+  padding-left: 1px;
 }
 
 .search-form__label:has(.search-form__textfield:active) {
@@ -205,30 +209,29 @@ input[type="checkbox"]:checked + span {
 .content__details {
   display: flex;
   flex-direction: column;
-  gap: 23px;
-  width: 399px;
-  height: 533px;
+  gap: 26px;
 }
 
 .title {
-  padding-top: 3px;
+  position: relative;
+  top: 3px;
   font-family: Oswald, sans-serif;
   font-size: 75px;
-  line-height: 94%;
+  line-height: 70px;
   text-transform: uppercase;
+  word-spacing: -1.5px;
 }
 
 .content__accent {
   opacity: 0.4;
 }
 
-.content__title {
-  padding-left: 19px;
-}
-
 .content__list-container {
   position: relative;
   overflow-y: auto;
+  padding-top: 2px;
+  height: 298px;
+  width: 399px;
 }
 
 .content__list {
